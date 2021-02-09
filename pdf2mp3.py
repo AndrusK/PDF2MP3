@@ -17,7 +17,7 @@ if args.pdf is None or args.mp3 is None or args.start_page is None:
 if ".pdf" in args.pdf:
     pdf = args.pdf
 else:
-    parser.error("PFD file must have the extention '.pdf'")
+    parser.error("PFD file must have the extension '.pdf'")
 if ".mp3" in args.mp3:
     mp3 = args.mp3
 else:
